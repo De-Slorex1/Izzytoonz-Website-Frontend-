@@ -6,6 +6,7 @@ import CarouselLanding from '@/components/CarouselLanding';
 import { Navbar } from '@/components/navbar';
 import { Footer } from '@/components/footer';
 import ProductsHomePart from '@/components/ProductsHomePart';
+import CarouselSlides from '@/components/carouselSlides';
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
               <Button size="lg">View Our Products</Button>
             </Link> */}
             {/* <AboutUsSection /> */}
+            <CarouselSlides />
             <ProductsHomePart />
             <TestimonialSection />
 
